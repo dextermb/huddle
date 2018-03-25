@@ -1,0 +1,34 @@
+{
+  "name": "dextermb/huddle",
+  "description": "A standalone PHP collection helper",
+  "minimum-stability": "dev",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Dexter Marks-Barber",
+      "email": "dexter@marks-barber.co.uk"
+    }
+  ],
+  "homepage": "https://github.com/dextermb/huddle",
+  "support": {
+    "issues": "https://github.com/dextermb/huddle/issues",
+    "source": "https://github.com/dextermb/huddle"
+  },
+  "require": {
+    "php": "^7.0"
+  },
+  "autoload": {
+    "files": [
+      "src/Huddle/Helpers.php"
+    ],
+    "psr-4": {
+      "Huddle\\": "src/Huddle/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.x-dev"
+    }
+  }
+}
